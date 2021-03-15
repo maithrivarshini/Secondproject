@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Created-By: Apache Maven
+Built-By: Maithri
+Build-Jdk: 11.0.10
+Implementation-Title: AemProject - UI apps
+Implementation-Version: 1.0
+Implementation-Vendor-Id: com.mindtree
+Content-Package-Roots: /apps/AemProject,/etc/packages/adobe/cq60/core.wc
+ m.components.all-2.5.0.zip,/etc/packages/adobe/cq60/core.wcm.components
+ .examples-2.5.0.zip
+Content-Package-Description: UI apps package for AemProject
+Content-Package-Id: AemProject:AemProject.ui.apps:1.0
+Import-Package: com.adobe.cq.sightly;version="[3.2.0,4.0.0)",org.apache.
+ sling.api;version="[2.3.3,3.0.0)",org.apache.sling.scripting.sightly.po
+ jo;version="[1.0.1,2.0.0)"
+Content-Package-Type: mixed
+
